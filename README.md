@@ -56,7 +56,7 @@ Certain parts of this program can be used to granually visualize extremely fast 
 The historical market cap program can also be used standalone. This data is not super easily accessible. Generally consumer-facing price stock companies don't keep data for historical market cap. So, for example, that section of the program could be used to figure out a question such as: "What was the market cap of AAPL on 10/10/2015?"
 
 ## Potential Advancements
-There are three potential advancements that I see:
+There are three potential advancements:
 - Firstly, an NLP program could be attached to the start of the program, so that the orginial input would just be the news events database. In this way the user could toggle easily between different types of news, without having to manually put together the input CSV. For example, the user could opt to analyze offering headlines, and the program could find offering examples from the news database, and then output the price change results.
 - Secondly, the program could use the data from the output CSV to create visuals of the moves that the stocks go through, so that the user could easily analyze the results
 - Thirdly, using the CRSP database was extremely slow to get the market cap of a program. For any given row in the input CSV, getting the market cap would take about 95% of the time (getting price data was the other 5%), so using another database or source to calculate maket cap would speed up the program significantly.
